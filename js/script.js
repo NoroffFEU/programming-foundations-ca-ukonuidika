@@ -19,4 +19,5 @@ console.log(type);
 
 var pet = ["dog", "white", 4, true];
 
-console.log(pet)
+console.log(pet);
+
