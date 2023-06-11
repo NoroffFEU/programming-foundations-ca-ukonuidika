@@ -17,7 +17,18 @@ var type = pet.type;
 console.log(type);
 
 
-var pet = ["dog", "white", 4, true];
+var mixedValues = ["dog", "white", 4, true];
 
 console.log(pet);
 
+
+// declare the function
+function addNumbers(num1, num2, num3, num4,) {
+    //console.log(num1 + num2 + num3 + num4);
+    return num1 + num2 + num3 + num4;
+}
+
+// call the function
+var result = addNumbers("dog" + "white" +4 + true);
+
+console.log(result);
