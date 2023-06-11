@@ -7,3 +7,10 @@ h1{
 	font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, Helvetica, sans-serif;
 	color: #D40404;
 }
+
+footer::before, footer::after{
+	content: '/';
+	color: #D40404;
+	font-size: 30px;
+	font-weight: bold;
+}
