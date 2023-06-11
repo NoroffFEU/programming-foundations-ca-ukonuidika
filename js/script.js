@@ -29,6 +29,6 @@ function addNumbers(num1, num2, num3, num4,) {
 }
 
 // call the function
-var result = addNumbers("dog" + "white" +4 + true);
+var result = addNumbers("dog" + "white" + 4 + true);
 
 console.log(result);
