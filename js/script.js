@@ -1,8 +1,17 @@
-console. log
+// pet object
+
+// type = "dog"
+// colour = "white"
+// number of legs = 4
+// domesticated = yes
 
 var pet = {
     type: "dog",
     colour: "white",
-    numberOfLegs 4,
+    numberOfLegs: 4,
     domesticated: true
-}
+};
+
+var type = pet.type;
+
+console.log(type);
