@@ -1,4 +1,16 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 	padding: 1em 3em;
+}
+
+h1{
+	font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, Helvetica, sans-serif;
+	color: #D40404;
+}
+
+footer::before, footer::after{
+	content: '/';
+	color: #D40404;
+	font-size: 30px;
+	font-weight: bold;
 }
